@@ -7,7 +7,7 @@
 show_admin_bar(false);
 
 function theme_add_scripts() {
-	wp_enqueue_script( 'jquery', get_template_directory_uri() . '/js/jquery-2.1.4.min.js');
+	wp_enqueue_script( 'jquery', get_template_directory_uri() . '/js/jquery-2.2.2.min.js');
 	wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/js/bootstrap.min.js');
 }
 add_action( 'wp_enqueue_scripts', 'theme_add_scripts' );
